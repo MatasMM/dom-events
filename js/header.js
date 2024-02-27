@@ -5,11 +5,11 @@ function header() {
     console.log(href);
 
     const HTML = `
-        <a href="${href}">Home</a>
-        <a href="${href}single-button-click">Single button click</a>
-        <a href="${href}counter/">Counter</a>
-        <a href="${href}basketball/">Basketball</a>
-        <a href="${href}virykle/">Virykle</a>
+        <a href="${href}" target= "_blank">Home</a>
+        <a href="${href}" target= "_blank">Single button click</a>
+        <a href="${href}" target= "_blank">Counter</a>
+        <a href="${href}" target= "_blank">Basketball</a>
+        <a href="${href}" target= "_blank">Virykle</a>
     `;
     navDOM.innerHTML = HTML;
 }
